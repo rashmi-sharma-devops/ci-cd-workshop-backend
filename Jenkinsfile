@@ -3,7 +3,7 @@ pipeline {
 
     // Parameters: values set once, picked automatically on webhook trigger
     parameters {
-        string(name: 'BACKEND_SERVER_IP', defaultValue: '54.91.85.115', description: 'Public IP of backend EC2 server')
+        string(name: 'BACKEND_SERVER_IP', defaultValue: '50.17.118.120', description: 'Public IP of backend EC2 server')
         string(name: 'DEPLOY_DIR', defaultValue: '/home/ubuntu/backend-app', description: 'Directory on backend server to deploy app')
     }
 
